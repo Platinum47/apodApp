@@ -20,10 +20,9 @@
 <div>
   <h2>Will the sky be visible tonight?</h2>
     <form>
-      <!--possibly using zip code to determine if skies are clear for weather-->
-      <!--possibly using zip code also to see if it is a new moon?-->
-      <!--possibly using zip code to see what time the sun set is in their area-->
-      <input type="text" placeholder="What is your zip code?">
+      <!--using city and state to determine if skies are clear for weather-->
+      <!--using city and state to see what time the sun set is in their area-->
+      <!--using city and state to see if it is a new moon?-->
         <select >
           <option value="" disabled selected>Select State...</option>
           <option value="alabama">Alabama</option>
@@ -77,6 +76,7 @@
           <option value="wisconsin">Wisconsin</option>
           <option value="wyoming">Wyoming</option>
         </select>
+      <input type="text" placeholder="What city are you in?">
       <button>Submit</button>
     </form>
 
