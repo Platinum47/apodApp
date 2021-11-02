@@ -1,7 +1,10 @@
+//THE PAGE TO DISPLAY CITIES / FAVORITES
+
 const router = require('express').Router();
 const { Project } = require('../../models');
 const withAuth = require('../../utils/auth');
 
+//displaying a new project
 router.post('/', withAuth, async (req, res) => {
   try {
     const newProject = await Project.create({
@@ -15,6 +18,7 @@ router.post('/', withAuth, async (req, res) => {
   }
 });
 
+//deleting a project
 router.delete('/:id', withAuth, async (req, res) => {
   try {
     const projectData = await Project.destroy({
