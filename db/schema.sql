@@ -1,2 +1,3 @@
-DROP DATABASE IF EXISTS nasaweb_db;
-CREATE DATABASE nasaweb_db;
+DROP DATABASE IF EXISTS crowdfund_db;
+CREATE DATABASE crowdfund_db;
+
