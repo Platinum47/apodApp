@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS nasaweb_db;
+CREATE DATABASE nasaweb_db;
