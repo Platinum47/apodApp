@@ -10,12 +10,12 @@ Project.init(
     id: {
       type: DataTypes.INTEGER,
       allowNull: false,
+      primaryKey: true,
       autoIncrement: true,
     },
     city: {
       type: DataTypes.STRING,
       allowNull: false,
-      primaryKey: true,
     },
     state: {
       type: DataTypes.STRING,
