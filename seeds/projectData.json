@@ -1,14 +1,14 @@
 [
   {
-    "city": "Music Near Me",
-    "state": "A mobile app that will send you notifications whenever a concert is playing in your area."
+    "city": "Chicago",
+    "state": "Illinois"
   },
   {
-    "city": "The Ultimate Tech Quiz",
-    "state": "A web app that will give users 10 new technical questions each day and track their progress in things like programming, cybersecurity, database architecture, and more!"
+    "city": "Atlanta",
+    "state": "Georgia"
   },
   {
-    "city": "Roll 'Em Up",
-    "state": "A game for Windows and macOS where players move a ball through a series of increasingly challenging mazes."
+    "city": "Lincoln",
+    "state": "Nebraska"
   }
 ]
