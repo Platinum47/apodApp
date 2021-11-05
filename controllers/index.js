@@ -32,7 +32,7 @@ router.get("/fetch_image", async (req, res) => {
 
 
 
-router.use('/', homeRoutes);
-router.use('/api', apiRoutes);
+ router.use('/', homeRoutes);
+ router.use('/api', apiRoutes);
 
-module.exports = router;
+ module.exports = router;
