@@ -23,8 +23,14 @@ router.get("/fetch_image", async (req, res) => {
         });
     });
 
+
+
     console.log("RESPONSE ", response);
     res.json(response.url);
+
+    const image = response.url;
+    return image;
+    
 
 
 });
